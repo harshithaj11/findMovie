@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;0,900;1,500;1,700;1,800&family=Roboto+Condensed:ital,wght@0,400;0,700;1,300&display=swap');
+
+body {
+    background: #000;
+    color: azure;
+    font-family: 'Montserrat';
+
+}
+.home{ 
+    width:90%;
+    margin: auto;
+    margin-top: 1%;
+}
+.home a{
+    color: #E6425E;
+    font-size: 80px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.out{
+    font-size: 60px;
+    width: 90%;
+    font-weight: 600;
+    
+    margin: auto;
+    margin-top: 30px;
+    color: red;
+    margin-bottom: 1%;
+}
+
+.topTrend {
+    display: flex;
+    font-size: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    border:#242B2E solid 1px;
+   
+
+}
+
+.trend {
+    height: 700px;
+    width: 600px;
+    /* background-color: blue; */
+    margin-top: 35px;
+    margin-right: 100px;
+    
+    font-weight: 800;
+    position: relative;
+    /* border: #242B2E solid; */
+    cursor: pointer;
+}
+
+.title {
+    margin-top: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.movimg {
+    height: 550px;
+    width: 550px;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.info {
+    background-color: rgb(39, 36, 36);
+    font-size: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(198, 7, 7, 0.2);
+    z-index: 1;
+    height: 70vh;
+    width: 30%;
+    position: fixed;
+    margin: auto;
+    top: 1%;
+    left: 30%;
+    bottom: 5%;
+    display: none;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 100px;
+    line-height: 70px;
+    overflow: scroll;
+}
+
+.closebtn {
+    float: right;
+    font-size: 70px;
+    cursor: pointer;
+    line-height: 30px;
+    
+}
+
+span {
+    font-weight: 600;
+    font-size: 50px;
+    color:#E6425E;
+    
+}
+.fa-solid{
+    color:#FF9529
+}
+.sim{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.simim{
+    width: 350px;
+    height: 550px;
+    position: relative;
+    margin-right: 25px;
+    
+}
+.simimg{
+    width:350px;
+    height: 420px;
+}
+.simname{
+    font-size: 35px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 50px;
+}
+
+.tit{
+    font-size:50px;
+    font-weight: 600;
+    margin-bottom: 2%;
+    color:#E6425E;
+}
+@media only screen and (max-width: 1100px) and (min-width: 509px) {
+    .topTrend {
+        display: flex;
+        font-size: 2em;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+      
+    }
+
+    .trend {
+        height: 190px;
+        width:110px;
+        margin-right: 25px;
+        font-size: 9px;
+        font-weight: 800;
+        position: relative;
+        /* border: #242B2E solid; */
+    }
+    
+    .title {
+        margin-top: 5%;
+        font-size: 11px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      
+    }
+    .movimg {
+        height: 140px;
+        width: 120px;
+    }
+    .info {
+        background-color: rgb(39, 36, 36);
+        font-size: 30px;
+        box-shadow: 0px 8px 16px 0px rgba(198, 7, 7, 0.2);
+        z-index: 1;
+        width: 50%;
+        position: fixed;
+        display: none;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 10px;
+        line-height: 20px;
+        height: 300px;
+        overflow: scroll;
+        padding-bottom: 30px;
+       
+
+    }
+    .closebtn {
+        float: right;
+        font-size: 30px;
+        cursor: pointer;
+        line-height: 20px;
+    }
+    
+    span {
+        font-weight: 600;
+        font-size: 12px;
+        tab-size: 5;
+    }
+    .movim{
+       width: 40%;
+       height: 100px;
+       
+       margin-top: 8%;
+
+    }
+    .movim .movimg{
+        width: 75%;
+        height: 100px;
+        margin-bottom: 1%;
+    }
+    .sim{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        overflow-x: scroll;
+        
+    }
+    .simim{
+        width: 100px;
+        height: 150px;
+        position: relative;
+        margin-right: 25px;
+        
+    }
+    .simimg{
+        width:100px;
+        height: 100px;
+    }
+    .simname{
+        font-size: 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        line-height: 15px;
+    }
+    
+    .tit{
+        font-size:13px;
+        font-weight: 600;
+        margin-bottom: 2%;
+    }
+
+.home a{
+  
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.out{
+    font-size: 15px;
+    width: 90%;
+    font-weight: 600;
+    
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+    
+    
+
+}
+@media only screen and (max-width:509px) and (min-width:300px) {
+    .topTrend {
+    
+        display: flex;
+        font-size: 2em;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+      
+    }
+
+    .trend {
+      height: 130px;
+        width: 95px;
+        margin-right: 20px;
+        font-size: 10px;
+        font-weight: 800;
+        position: relative;
+        /* border: #242B2E solid; */
+    }
+    
+    .title {
+        margin-top: 2%;
+        font-size: 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      
+    }
+    .movimg {
+        height: 110px;
+        width: 100px;
+    }
+    .info {
+        background-color: rgb(39, 36, 36);
+        font-size: 30px;
+        box-shadow: 0px 8px 16px 0px rgba(198, 7, 7, 0.2);
+        z-index: 1;
+        width: 50%;
+        position: fixed;
+        
+        display: none;
+        font-size: 9px;
+        font-weight: 500;
+        padding: 10px;
+        line-height: 20px;
+        height: 70vh;
+        overflow: scroll;
+        padding-bottom: 30px;
+       
+
+    }
+    .closebtn {
+        float: right;
+        font-size: 30px;
+        cursor: pointer;
+        line-height: 20px;
+    }
+    
+    span {
+        font-weight: 600;
+        font-size: 10px;
+        tab-size: 5;
+    }
+    .movim{
+       width: 50%;
+       height: 100px;
+       
+       margin-top: 8%;
+
+    }
+    .movim .movimg{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 1%;
+    }
+    .sim{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        overflow-x: scroll;
+        
+    }
+    .simim{
+        width: 100px;
+        height: 150px;
+        position: relative;
+        margin-right: 15px;
+        
+    }
+    .simimg{
+        width:100px;
+        height: 105px;
+    }
+    .simname{
+        font-size: 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        line-height: 15px;
+    }
+    
+    .tit{
+        font-size:10px;
+        font-weight: 00;
+        margin-bottom: 2%;
+    }
+   
+.home a{
+  
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.out{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ 
+    
+    
+
+}
