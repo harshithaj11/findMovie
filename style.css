@@ -38,8 +38,31 @@ body {
     font-size: 35px;
     margin-top: -2.5%;
     padding-left: 15px;
-    margin-right: 190px;
+/*     margin-right: 190px; */
 
+}
+
+.searchbutton{
+    margin-top: -2.5%;
+    height:107px;
+    width:100px;
+    position: absolute;
+    background: transparent;
+    right: 0;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+.form{
+    display: flex;
+    position: relative;
+}
+.fa-magnifying-glass{
+    color: #0D0D0D;
+}
+.searchbutton:hover{
+    background-color: #a7abaf;
 }
 
 
@@ -146,7 +169,7 @@ span {
     color:#E6425E;
     
 }
-.fa-solid{
+.fa-star{
     color:#FF9529
 }
 .sim{
@@ -211,8 +234,13 @@ span {
         display: block;
         font-size: 15px;
         padding-left: 10px;
-    
-    
+    }
+    .searchbutton{
+        margin-top: 0%;
+        height:26px;
+        width:30px;
+       
+        font-size: 15px;
     }
     .adv {
         margin-left: auto;
@@ -374,7 +402,13 @@ span {
         padding-left: 10px;
         margin-right: 0px;
     
-    
+    }
+    .searchbutton{
+        margin-top: 0%;
+        height:22px;
+        width:30px;
+        
+        font-size: 10px;
     }
     .adv {
         margin: auto;
