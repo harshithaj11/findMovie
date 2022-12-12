@@ -113,17 +113,17 @@ body {
 }
 
 .info {
-    background-color: rgb(39, 36, 36);
+     background-color: rgb(39, 36, 36);
     font-size: 30px;
-    box-shadow: 0px 8px 16px 0px rgba(198, 7, 7, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(72, 70, 70, 0.2);
     z-index: 1;
-    height: 70vh;
+    height: 1350px;
     width: 30%;
     position: fixed;
-    margin: auto;
-    top: 6%;
-    left: 25%;
-   
+    margin-left: auto;
+    margin-right: auto;
+    top: 9%;
+    left: 30%;
     display: none;
     font-size: 40px;
     font-weight: 500;
@@ -274,6 +274,8 @@ span {
         font-size: 30px;
         box-shadow: 0px 8px 16px 0px rgba(198, 7, 7, 0.2);
         z-index: 1;
+        top:6%;
+        left:25%;
         width: 50%;
         position: fixed;
         display: none;
@@ -284,7 +286,6 @@ span {
         height: 300px;
         overflow: scroll;
         padding-bottom: 30px;
-       
 
     }
     .closebtn {
@@ -430,7 +431,7 @@ span {
         width: 100px;
     }
     .info {
-        background-color: rgb(39, 36, 36);
+         background-color: rgb(39, 36, 36);
         font-size: 30px;
         box-shadow: 0px 8px 16px 0px rgba(198, 7, 7, 0.2);
         z-index: 1;
@@ -445,7 +446,6 @@ span {
         height: 70vh;
         overflow: scroll;
         padding-bottom: 30px;
-       
 
     }
     .closebtn {
